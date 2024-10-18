@@ -1,0 +1,19 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+    background: white;
+    border-radius:30px ;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 80%;
+}
