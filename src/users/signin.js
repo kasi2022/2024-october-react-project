@@ -9,6 +9,8 @@ function Signin() {
     <div>
       <h1>Signin</h1>
       <button onClick={()=>{navigator("/login")}} >Signin</button>
+      {/* <Singleform/> */}
+      
     </div>
   )
 }
