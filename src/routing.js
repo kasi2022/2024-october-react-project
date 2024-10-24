@@ -5,6 +5,7 @@ import Login from './users/login'
 import Dashbord from './dashbord/dashbord'
 import UseSate from './hooks/useState'
 import HomeForm from './hooks/Form/homefor,'
+import GetAllProducts from './API/getapi_products'
 
 function Routing() {
   return (
@@ -15,8 +16,7 @@ function Routing() {
         <Route path='/dashbord' element={<Dashbord/>}/>
         <Route path='/usestate' element={<UseSate/>}/>
         <Route path='/homeform' element={<HomeForm/>}/>
-
-
+        <Route path='/getproducts' element={<GetAllProducts/>}/>
       </Routes>
       
     </div>
